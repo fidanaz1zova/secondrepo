@@ -1,0 +1,53 @@
+body {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(4, 6, 114));
+  width: 100%;
+  height: 550px;
+}
+.validation {
+  width: 400px;
+  /* height: 600px; */
+  border: 13px solid rgb(252, 245, 229);
+  border-radius: 50px;
+  margin-top: 30px;
+  /* margin-left: 550px; */
+  background-image: linear-gradient(to right, rgb(4, 6, 114), rgb(0, 1, 22));
+}
+form {
+  width: 230px;
+  /* height: 380px; */
+  border: 15px solid rgb(252, 245, 229);
+  border-radius: 20px;
+  background-color: rgb(252, 245, 229);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+}
+input {
+  width: 200px;
+  height: 30px;
+  border: 15px solid rgb(252, 245, 229);
+  border-radius: 20px;
+  background-color: rgb(236, 227, 206);
+}
+::placeholder {
+  color: rgb(133, 133, 170);
+  padding-left: 5px;
+}
+select {
+  width: 230px;
+  height: 60px;
+  border: 15px solid rgb(252, 245, 229);
+  border-radius: 20px;
+  background-color: rgb(236, 227, 206);
+  color: rgb(0, 0, 192);
+}
+button {
+  width: 120px;
+  height: 70px;
+  border: 15px solid rgb(252, 245, 229);
+  border-radius: 20px;
+  background-color: green;
+  color: rgb(252, 245, 229);
+  margin-left: 50px;
+  margin-top: 10px;
+}
